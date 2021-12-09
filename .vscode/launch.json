@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        
+test runner 
+     {
+         "command": "test-runner.run",
+         "title":"run test file"
+            
+         },
+     
+        {
+            "name": "Dart: Run all Tests",
+            "type": "dart",
+            "request": "launch",
+            "program": "./test/calculate.dart"
+        },
+        {
+            "name": "Flutter (test\\calculate_test.dart)",
+            "type": "dart",
+            "request": "launch",
+            "program": "test\\calculate_test.dart"
+        }
+    ]
+}
